@@ -14,8 +14,10 @@ const when = (condition, config, negativeConfig) =>
   condition ? ensureArray(config) : ensureArray(negativeConfig);
 
 // primary config:
+const title = 'Weather App'
 const outDir = path.resolve(__dirname, project.platform.output);
 const srcDir = path.resolve(__dirname, 'src');
+const nodeModuleDir = path.resolve(__dirname, 'node_modules')
 const baseUrl = '/';
 
 const cssRules = [
