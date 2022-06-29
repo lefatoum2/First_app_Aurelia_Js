@@ -262,3 +262,6 @@ export interface WeatherResponce {
     city: City;
 }
 ```
+
+
+![img5](./images/au1.png)
